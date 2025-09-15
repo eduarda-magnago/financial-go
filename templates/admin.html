@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Área do Administrador - FinancialGo</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/front-end/css/admin.css">
-  <link rel="icon" type="image/png" href="/front-end/images/favicon (2).png">
+  <link rel="stylesheet" href="front-end/css/admin.css">
+  <link rel="icon" type="image/png" href="front-end/images/favicon (2).png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <header class="cabecalho">
     <div class="marca">
       <a href="/">
-        <img class="logo" src="/front-end/images/logo-financialgo.PNG" alt="Logotipo FinancialGo">
+        <img class="logo" src="front-end/images/logo-financialgo.PNG" alt="Logotipo FinancialGo">
       </a>
     </div>
     <nav>
@@ -23,17 +23,16 @@
 
   <main class="container-login">
     <h2>Digite a senha de segurança</h2>
-    <form method="POST" action="/admin" class="formulario-login">
+    <form class="formulario-login" id="login-form">
       <div class="campo">
         <i class="fa-solid fa-user-lock" style="color: gray; margin-right: 8px;"></i>
-        <input type="password" id="senha" name="senha" placeholder="Entre com a senha" required>
+        <input type="password" id="senha" placeholder="Entre com a senha">
       </div>
       <button type="submit" class="botao-entrar">ENTRAR</button>
     </form>
-
-    {% if erro %}
-      <p style="color:red; margin-top:10px;">Senha incorreta!</p>
-    {% endif %}
+    <p id="erro" style="color:red; display:none; margin-top:10px;">Senha incorreta!</p>
   </main>
+
+  <script src="front-end/js/script-admin.js"></script>
 </body>
 </html>
