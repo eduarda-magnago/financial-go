@@ -1,0 +1,98 @@
+[
+  {
+    "nome": "Carlos Henrique Ferreira",
+    "email": "carloshenrique@gmail.com",
+    "assunto": " Atualização sobre solicitação de financiamento empresarial",
+    "mensagem": "Bom dia,\nGostaria de saber se houve alguma atualização sobre a análise da minha solicitação de financiamento protocolada no dia 05/09.\nProtocolo: #FIN-29483\nAguardo retorno.\nAtenciosamente,\nCarlos Henrique",
+    "classificacao": "Produtivo",
+    "resposta": "Olá! Sua mensagem foi recebida e encaminhada à equipe responsável. Entraremos em contato o mais rápido possível para solucionar sua questão! Atc, Equipe de Suporte."
+  },
+  {
+    "nome": "Luísa Mendes",
+    "email": "luisamendes@gmail.com",
+    "assunto": "Feliz natal ",
+    "mensagem": "Queridos,\nDesejo a todos um Feliz Natal e um próspero Ano Novo!\nAbraços,\nLuísa Mendes. \n\n",
+    "classificacao": "Improdutivo",
+    "resposta": "Agradecemos sua mensagem. Tenha um ótimo dia!"
+  },
+  {
+    "nome": "Roberto Silva",
+    "email": "robertosilva@gmail.com",
+    "assunto": "Envio de documentos para conclusão de cadastro",
+    "mensagem": "Segue em anexo a cópia do comprovante de residência atualizado e a cópia do RG, conforme solicitado para finalização do meu cadastro.\nFico no aguardo da confirmação de recebimento.\nAtt,\nRoberto Silva",
+    "classificacao": "Produtivo",
+    "resposta": "Olá! Sua mensagem foi recebida e encaminhada à equipe responsável. Entraremos em contato o mais rápido possível para solucionar sua questão! Atc, Equipe de Suporte."
+  },
+  {
+    "nome": "Patrícia Souza",
+    "email": "patriciasouza@gmail.com",
+    "assunto": "Alteração de limite do cartão corporativo",
+    "mensagem": "Prezados,\nPreciso solicitar o aumento do limite do meu cartão corporativo para R$ 20.000,00 devido a demandas de viagens internacionais.\nPodem me orientar sobre o procedimento?\nObrigado,\nPatrícia Souza",
+    "classificacao": "Produtivo",
+    "resposta": "Olá! Sua mensagem foi recebida e encaminhada à equipe responsável. Entraremos em contato o mais rápido possível para solucionar sua questão! Atc, Equipe de Suporte."
+  },
+  {
+    "nome": "Lúcia  Pereira",
+    "email": "lucia@gmail.com",
+    "assunto": "Convite para café",
+    "mensagem": "Pessoal,\nEstamos organizando um café no escritório amanhã às 16h. Contamos com vocês! Atc, Lúcia. ",
+    "classificacao": "Improdutivo",
+    "resposta": "Agradecemos sua mensagem. Tenha um ótimo dia!"
+  },
+  {
+    "nome": "Marcos  Lima",
+    "email": "marcoslima@gmail.com",
+    "assunto": "Esclarecimento sobre taxa de manutenção",
+    "mensagem": "Olá,\nNotei a cobrança de uma taxa de manutenção de R$ 45,00 na minha conta no último mês. Gostaria de entender a origem desta cobrança.\nAguardo retorno.\nAtenciosamente,\nMarcos Lima",
+    "classificacao": "Produtivo",
+    "resposta": "Olá! Sua mensagem foi recebida e encaminhada à equipe responsável. Entraremos em contato o mais rápido possível para solucionar sua questão! Atc, Equipe de Suporte."
+  },
+  {
+    "nome": "Juliana  Costa",
+    "email": "julianacosta@gmail.com",
+    "assunto": "Acompanhamento de ticket em aberto",
+    "mensagem": "Boa tarde,\nAbri um chamado técnico no dia 10/09 referente a divergência em lançamentos na minha conta (Ticket #45219).\nPoderiam me atualizar sobre o status, por favor?\nObrigada,\nJuliana Costa ",
+    "classificacao": "Produtivo",
+    "resposta": "Olá! Sua mensagem foi recebida e encaminhada à equipe responsável. Entraremos em contato o mais rápido possível para solucionar sua questão! Atc, Equipe de Suporte."
+  },
+  {
+    "nome": "Fernanda Almeida",
+    "email": "fernandaalmeida@gmail.com",
+    "assunto": "Erro no acesso ao aplicativo",
+    "mensagem": "Prezados,\nDesde ontem não consigo acessar o aplicativo da empresa. Aparece a mensagem de erro “usuário não encontrado”.\nPodem verificar, por favor?\nObrigada,\nFernanda Almeida",
+    "classificacao": "Produtivo",
+    "resposta": "Olá! Sua mensagem foi recebida e encaminhada à equipe responsável. Entraremos em contato o mais rápido possível para solucionar sua questão! Atc, Equipe de Suporte."
+  },
+  {
+    "nome": "Luana Araújo",
+    "email": "luanaaraujo@gmail.com",
+    "assunto": "Boas festas!",
+    "mensagem": "Olá, equipe! Gostaria de desejar um Feliz Natal e um ótimo Ano Novo.\nQue todos tenham muita saúde e sucesso no próximo ano. Atc, Luana Araújo",
+    "classificacao": "Improdutivo",
+    "resposta": "Agradecemos sua mensagem. Tenha um ótimo dia!"
+  },
+  {
+    "nome": "Marcelo  Texeira",
+    "email": "marcelotexeira@gmail.com",
+    "assunto": "Cumprimento ",
+    "mensagem": "Boa tarde, equipe! Espero que todos estejam bem.\nApenas passando para dar um oi rápido.",
+    "classificacao": "Improdutivo",
+    "resposta": "Agradecemos sua mensagem. Tenha um ótimo dia!"
+  },
+  {
+    "nome": "Gustavo  Almeida",
+    "email": "gustavoalmeida@gmail.com",
+    "assunto": "Erro no processamento de pedidos",
+    "mensagem": "Oi, equipe, percebi que alguns pedidos não estão sendo processados corretamente.\nPode verificar o que está causando o problema? Atc, Gustavo ",
+    "classificacao": "Produtivo",
+    "resposta": "Olá! Sua mensagem foi recebida e encaminhada à equipe responsável. Entraremos em contato o mais rápido possível para solucionar sua questão! Atc, Equipe de Suporte."
+  },
+  {
+    "nome": "Renata  Lopes",
+    "email": "renatalopes@gmail.com",
+    "assunto": "Felicitações pelo trabalho",
+    "mensagem": "Parabéns a todos pelo excelente desempenho neste trimestre!\nContinuem com esse empenho e dedicação. Atc, Renata Lopes. ",
+    "classificacao": "Improdutivo",
+    "resposta": "Agradecemos sua mensagem. Tenha um ótimo dia!"
+  }
+]

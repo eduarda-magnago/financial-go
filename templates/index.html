@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinancialGo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="front-end/css/styles.css">
+  <link rel="icon" type="image/png" href="front-end/images/favicon (2).png">
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="marca">
+      <a href="/">
+        <img class="logo" src="front-end/images/logo-financialgo.PNG" alt="Logotipo FinancialGo">
+      </a>
+    </div>
+    <nav>
+      <a href="/admin">ÁREA DO ADMINISTRADOR</a>
+    </nav>
+  </header>
+
+  <section class="destaque">
+    <div class="destaque-texto">
+      <h2>Cresça com confiança, invista com inteligência.</h2>
+      <p>
+        Na <strong>FinancialGo</strong>, ajudamos você a transformar suas metas financeiras em conquistas reais.  
+        Oferecemos soluções personalizadas para investimentos, gestão de patrimônio & planejamento, sempre com foco em segurança e crescimento sustentável.
+      </p>
+      <div class="botoes">
+        <button id="botao-servicos" class="botao botao-vazado">NOSSOS SERVIÇOS</button>
+        <button class="botao botao-preenchido">ENTRE EM CONTATO</button>
+      </div>
+    </div>
+    <div class="destaque-imagem">
+      <img src="front-end/images/hero.jpeg" alt="Equipe FinancialGo">
+    </div>
+  </section>
+
+  <section class="servicos" id="secao-servicos">
+    <div class="cartao-servico">
+      <h3>Gestão de Investimentos</h3>
+      <p>Maximize seus rendimentos com uma estratégia sob medida para o seu perfil. Nossa equipe analisa o mercado e oferece as melhores oportunidades para seu crescimento.</p>
+    </div>
+    <div class="cartao-servico">
+      <h3>Planejamento Financeiro Pessoal</h3>
+      <p>Organize suas finanças com clareza e alcance seus objetivos — seja comprar um imóvel, viajar, ou garantir um futuro tranquilo.</p>
+    </div>
+    <div class="cartao-servico">
+      <h3>Serviço de Consultoria Empresarial</h3>
+      <p>Apoio estratégico para empresas que desejam expandir, reduzir riscos e otimizar recursos financeiros, sempre com foco em resultados consistentes.</p>
+    </div>
+  </section>
+
+  <section id="modal-contato" class="modal">
+      <div class="modal-conteudo">
+        <span class="fechar">&times;</span>
+        <h2>Envie uma mensagem para a nossa equipe</h2>
+
+        <form class="form-contato">
+        <label>Nova mensagem</label>
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="text" id="sobrenome" placeholder="Sobrenome" required>
+        <input type="email" id="email" placeholder="E-mail" required>
+        <input type="text" id="assunto" placeholder="Assunto" required>
+        <textarea id="mensagem" placeholder="Mensagem" required></textarea>
+
+        <button type="submit" class="botao-enviar">ENVIAR</button>
+        </form>
+      </div>
+   </section>
+
+  <script src="front-end/js/script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - FinancialGo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="front-end/css/dashboard.css">
+  <link rel="icon" type="image/png" href="front-end/images/favicon (2).png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="bemvindo">
+      <a href="/" class="link-home">
+        <span>Bem-vindo(a), FinancialGo</span>
+      </a>
+    </div>
+    <div class="marca">
+      <a href="/">
+        <img class="logo" src="front-end/images/logo-financialgo.PNG" alt="Logotipo FinancialGo">
+      </a>
+    </div>
+  </header>
+
+  <main class="conteudo">
+    <h2>Caixa de entrada</h2>
+
+    <div class="tabela">
+      <div class="tabela-header">
+        <span>Nome</span>
+        <span>Mensagem</span>
+        <span>Classificação</span>
+        <span>Visualização</span>
+        <span>Excluir</span>
+      </div>
+      <div class="tabela-body" id="lista-mensagens">
+        <!-- As mensagens aparecerão aqui -->
+      </div>
+    </div>
+  </main>
+
+  <script src="front-end/js/script-dashboard.js"></script>
+</body>
+</html>
