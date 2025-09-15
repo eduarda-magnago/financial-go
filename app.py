@@ -1,13 +1,10 @@
-from flask import Flask, request, jsonify, render_template, redirect, url_for, session
+from flask import Flask, request, jsonify, render_template, redirect, url_for
 import json
 import os
 import re
 from transformers import pipeline
 
 app = Flask(__name__, template_folder="templates", static_folder="front-end")
-
-# Definindo a secret key para sessões
-app.secret_key = "secretkey"
 
 ARQUIVO_MENSAGENS = "mensagens.json"
 mensagens = []
@@ -32,6 +29,9 @@ def carregar_mensagens():
             mensagens.extend(json.load(f))
 
 def heuristica_improdutivo(texto):
+    """
+    Casos óbvios de improdutivo: cumprimentos, felicitações e agradecimentos.
+    """
     if not texto:
         return False
 
@@ -93,7 +93,6 @@ def admin():
     if request.method == "POST":
         senha = request.form.get("senha", "")
         if senha == SENHA_ADMIN:
-            session['logado'] = True  # Marca o usuário como logado na sessão
             return redirect(url_for("dashboard"))
         else:
             return render_template("admin.html", erro=True)
@@ -101,15 +100,7 @@ def admin():
 
 @app.route("/dashboard")
 def dashboard():
-    if not session.get('logado'):
-        # Se não estiver logado, retorna erro 401 (não autorizado)
-        return "Acesso não autorizado. Faça login primeiro.", 401
     return render_template("dashboard.html")
-
-@app.route("/logout")
-def logout():
-    session.pop('logado', None)
-    return redirect(url_for("admin"))
 
 @app.route("/classificar", methods=["POST"])
 def classificar():
@@ -145,7 +136,4 @@ def deletar_mensagem(index):
 
 if __name__ == "__main__":
     print("Device set to use cpu")
-    port = int(os.environ.get("PORT", 8080)) 
-    app.run(host="0.0.0.0", port=port)
-
-
+    app.run(debug=True)
