@@ -32,6 +32,11 @@ Além de agilizar a operação, o projeto busca demonstrar a integração de NLP
 
 ---
 
+## Vídeo explicativo do projeto 
+Link: https://www.youtube.com/watch?v=vzW-lHRGetA
+
+---
+
 ## Deploy
 O modelo usado nesse projeto foi o "joeddav/xlm-roberta-large-xnli" da Hugging Face, que exige muitos recursos computacionais para funcionar bem. Plataformas gratuitas como Replit, Heroku e Glitch não oferecem essa capacidade. Por isso, ele só funciona corretamente no ambiente local e não pode ficar no ar até termos uma hospedagem paga e adequada.
 
