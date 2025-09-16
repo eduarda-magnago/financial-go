@@ -38,9 +38,9 @@ Link: https://www.youtube.com/watch?v=vzW-lHRGetA
 ---
 
 ## Deploy
-O modelo usado nesse projeto foi o "joeddav/xlm-roberta-large-xnli" da Hugging Face, que exige muitos recursos computacionais para funcionar bem. Plataformas gratuitas como Replit, Heroku e Glitch não oferecem essa capacidade. Por isso, ele só funciona corretamente no ambiente local e não pode ficar no ar até termos uma hospedagem paga e adequada.
+O modelo usado nesse projeto foi o "joeddav/xlm-roberta-large-xnli" da Hugging Face, que exige muitos recursos para funcionar no Deploy. Plataformas gratuitas como Replit, Heroku e Glitch não ofereceram essa capacidade para suportar o projeto. Por isso, no momento, ele só funciona corretamente no ambiente local e não pode ficar no ar até termos uma hospedagem paga e adequada.
 
-Entretanto, siga as instruções de execução caso queira testar o repositório localmente. 
+Entretanto, siga as instruções de execução para testar o repositório localmente. 
 
 ---
 
